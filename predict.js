@@ -11,7 +11,7 @@ $("#image-selector").change(function () {
 
 let model;
 (async function () {
-    model = await tf.loadModel('https://github.com/kazuto971002/ImageClassifier/tree/master/tfjs-models/VGG16/model.json');
+    model = await tf.loadModel('https://github.com/kazuto971002/ImageClassifier/tree/master/tfjs-models/TestModel/model.json');
     $('.progress-bar').hide();
 })(); 
 
